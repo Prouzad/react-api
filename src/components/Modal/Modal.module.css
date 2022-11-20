@@ -1,0 +1,92 @@
+.modalBox{
+	position: fixed;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 3;
+	background:rgb(0, 0, 0, 0.5);
+}
+
+.modalContainer{
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	min-width: 300px;
+	min-height: 300px;
+	background: white;
+	padding: 25px;
+	border-radius: 35px;
+	position: relative;
+}
+
+.title{
+	display: flex;
+	flex-direction: column;
+	align-items:center
+}
+
+h3{
+	margin-bottom: 0;
+}
+.genres{
+	display: flex;
+}
+
+.genres p{
+	margin-left: 15px;
+	margin-top: 0;
+	font-size: 14px;
+	font-weight: 500;
+	color: silver;
+}
+
+.synopsis{
+		max-width: 500px;
+		max-height: 200px;
+		overflow: hidden;
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		-webkit-box-orient: vertical;
+		line-height: 1.3em;
+		height: 3.9em;
+		font-family: 'Mukta', sans-serif;
+
+
+}
+
+.button{ 
+	width: 150px;
+	height: 35px;
+	background: rgb(4, 41, 58);
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	border-radius: 15px;
+	color: white;
+	text-decoration: none;
+	margin-top: 15px;
+}
+
+.buttonX{
+	position: absolute;
+	font-size: 24px;
+	width: 35px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	top: 0;
+	right: 0;
+	margin-right: 15px;
+	margin-top: 15px;
+	border: 2px solid rgb(0, 0, 0); 
+	border-radius: 100%;
+	cursor: pointer;
+}
+
+
+
+
+
